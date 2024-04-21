@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+    color: black;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-size: 12px;
+}
+
+img {
+    width: 130px;
+    display: block;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.Card1, .Card2, .Card3, .Card4, .Card5, .Card6, .Card7, .Card8 {
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center; 
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 2px solid #494D5f;
+}
+
+@media (min-width: 320px) {
+    body {
+      
+    }
+  }
+  
+  @media (min-width: 768px) {
+    body {
+      
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    body {
+      
+    }
+  }
+
+
+
+
